@@ -61,6 +61,11 @@ main {
 button {
     font-family: Karla, sans-serif;
     cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+button:active {
+    transform: scale(0.90);
 }
 
 .dice-container button {
